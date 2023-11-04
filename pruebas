@@ -1,0 +1,13 @@
+local StarterGui = game:GetService("StarterGui")
+local showNotification = true
+
+function Notify(tl, t, d) 
+if showNotification == true then
+StarterGui:SetCore("SendNotification", {
+	Title = tl;
+	Text = t;
+	Duration = d;
+	Icon = "http://www.roblox.com/asset/?id=15248033506";
+})
+end
+end
