@@ -216,7 +216,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.184615389, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 25, 0, 25)
+ImageLabel.Size = UDim2.new(0, 10, 0, 25)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=15248033506"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
