@@ -43,7 +43,7 @@ local checkIn = {"Workspace", "ReplicatedStorage", "StarterGui", "CoreGui"}
 local names = {"Delete", "Deletar", "Remove", "Destroy", "Clean", "Clear","Bullet", "Bala", "Shoot", "Shot", "Fire", "Segway", "Handless", "Sword", "Attack"}
 if char then
 blurefct(20)
-Notify("Vulnerability Checker", "Looking up for remotes, may take a while.", 3)
+Notify("NCTP destructive epik GUI", "buscando remotes espere un rato", 3)
 for _, service in pairs(checkIn) do
 for i,v in pairs(game:GetService(service):GetDescendants()) do
 for _, str in pairs(names) do
@@ -68,7 +68,7 @@ end
 end
 
 if sent == false then
-Notify("Vulnerability Checker", "This game is not vulnerable/supported.", 5)
+Notify("NCTP destructive epik GUI", "este juego no es vulnerable", 5)
 blurefct(0)
 end
 
@@ -106,7 +106,7 @@ elseif strl == "me" then
 end
 if enable == true then
 blurefct(0)
-Notify("Destructed Hex", "Made by Luq and Luca", 10)
+Notify("destructive epik GUI", "Hecho por Nombre_pe y catserver", 10)
 local destruct = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -217,7 +217,7 @@ ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.184615389, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 25, 0, 25)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=8388262491"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15248033506"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
 scripts.Name = "scripts"
