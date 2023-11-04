@@ -146,7 +146,7 @@ destruct.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
 main.Parent = destruct
-main.Image = "http://www.roblox.com/asset/?id=15248033506"
+main.BackgroundImage = "http://www.roblox.com/asset/?id=15248033506"
 main.BackgroundTransparency = 0.3
 main.BorderSizePixel = 0
 main.Position = UDim2.new(0.268847764, 0, 0.372854918, 0)
