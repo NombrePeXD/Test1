@@ -107,7 +107,7 @@ end
 if enable == true then
 blurefct(0)
 Notify("destructive epik GUI", "Hecho por Nombre_pe y catserver", 10)
-local destruct = Instance.new("ImageGui")
+local destruct = Instance.new("ImageLabel")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local line = Instance.new("Frame")
