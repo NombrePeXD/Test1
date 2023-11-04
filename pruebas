@@ -43,7 +43,7 @@ local checkIn = {"Workspace", "ReplicatedStorage", "StarterGui", "CoreGui"}
 local names = {"Delete", "Deletar", "Remove", "Destroy", "Clean", "Clear","Bullet", "Bala", "Shoot", "Shot", "Fire", "Segway", "Handless", "Sword", "Attack"}
 if char then
 blurefct(20)
-Notify("NCTP destructive epik GUI", "buscando remotes espere un rato", 3)
+Notify("destructive epik GUI", "buscando remotes espere un rato", 5)
 for _, service in pairs(checkIn) do
 for i,v in pairs(game:GetService(service):GetDescendants()) do
 for _, str in pairs(names) do
@@ -68,7 +68,7 @@ end
 end
 
 if sent == false then
-Notify("NCTP destructive epik GUI", "este juego no es vulnerable", 5)
+Notify("destructive epik GUI", "este juego no es vulnerable", 5)
 blurefct(0)
 end
 
@@ -119,23 +119,23 @@ local kick = Instance.new("TextButton")
 local ban = Instance.new("TextButton")
 local unban = Instance.new("TextButton")
 local goto = Instance.new("TextButton")
-local view = Instance.new("TextButton")
-local unview = Instance.new("TextButton")
+local mirar = Instance.new("TextButton")
+local no mirar = Instance.new("TextButton")
 local btools = Instance.new("TextButton")
 local nuke = Instance.new("TextButton")
-local naked = Instance.new("TextButton")
-local faceless = Instance.new("TextButton")
-local nolimbs = Instance.new("TextButton")
-local hatless = Instance.new("TextButton")
-local sink = Instance.new("TextButton")
+local desnudo = Instance.new("TextButton")
+local sin cara = Instance.new("TextButton")
+local no brasos = Instance.new("TextButton")
+local sin gorro = Instance.new("TextButton")
+local undir = Instance.new("TextButton")
 local rtools = Instance.new("TextButton")
 local stools = Instance.new("TextButton")
 local slock = Instance.new("TextButton")
-local player = Instance.new("TextBox")
+local jugador = Instance.new("TextBox")
 local ranims = Instance.new("TextButton")
 local ragdoll = Instance.new("TextButton")
-local shutdown = Instance.new("TextButton")
-local punish = Instance.new("TextButton")
+local apagar = Instance.new("TextButton")
+local castigar = Instance.new("TextButton")
 local rchassis = Instance.new("TextButton")
 
 --Properties:
@@ -494,7 +494,7 @@ work(plr)
 end
 end
 if serverlock == true then
-Notify("Join Attempt", plr.Name .. " Tried to join the game but the server is locked", 5)
+Notify("intento de unirse", plr.Name .. " Tried to join the game but the server is locked", 5)
 work(plr)
 end
 if sdown == true then
@@ -723,7 +723,7 @@ end)
 
 shutdown.MouseButton1Click:Connect(function()
 sdown = true
-Notify("Shutdown", "Shutdowning server..", 5)
+Notify("apagando", "Apagando server..", 5)
 for i, v in pairs(game:GetService("Players"):GetPlayers()) do
 spawn(function()
 if v.Name ~= LocalPlayer.Name then
