@@ -404,7 +404,7 @@ slock.Text = "Slock"
 slock.TextColor3 = Color3.fromRGB(255, 255, 255)
 slock.TextSize = 14.000
 
-player.Name = "player"
+player.Name = "jugador"
 player.Parent = main
 player.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 player.BorderSizePixel = 0
