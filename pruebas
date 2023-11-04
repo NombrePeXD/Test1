@@ -146,7 +146,7 @@ destruct.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
 main.Parent = destruct
-main.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+main.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 main.BackgroundTransparency = 0.3
 main.BorderSizePixel = 0
 main.Position = UDim2.new(0.268847764, 0, 0.372854918, 0)
@@ -194,7 +194,7 @@ UserInputService.InputChanged:Connect(function(input)
 end)
 
 TextLabel.Parent = main
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.292307675, 0, 0, 0)
