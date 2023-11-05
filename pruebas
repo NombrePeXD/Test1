@@ -146,7 +146,7 @@ destruct.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
 main.Parent = destruct
-main.BackgroundImage = "http://www.roblox.com/asset/?id=15248033506"
+main.BackgroundColor3 = Color3.fromRGB(255, 0, 0) 
 main.BackgroundTransparency = 0.3
 main.BorderSizePixel = 0
 main.Position = UDim2.new(0.268847764, 0, 0.372854918, 0)
@@ -216,7 +216,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.184615389, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 15, 0, 25)
+ImageLabel.Size = UDim2.new(0, 16, 0, 25)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=15248033506"
 ImageLabel.ScaleType = Enum.ScaleType.Fit
 
